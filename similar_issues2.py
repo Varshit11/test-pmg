@@ -1213,8 +1213,8 @@ def main():
     rag_pipeline = GatiShaktiSimilarIssuesRAG(use_llm=True)
     
     # Define file paths
-    input_file = '../data/prod/gati_shakti_feature_engineering_with_time_features.json'
-    output_file = '../data/prod/gati_shakti_similar_issues_analysis_with_time_features2.json'
+    input_file = 'gati_shakti_feature_engineering_with_time_features.json'
+    output_file = 'gati_shakti_similar_issues_analysis_with_time_features2.json'
     
     print(f"Input: {input_file}")
     print(f"Output: {output_file}")
@@ -1265,4 +1265,5 @@ if __name__ == "__main__":
     main()
     
     # Uncomment to analyze results after running main()
-    # load_and_analyze_results('../data/prod/gati_shakti_similar_issues_analysis.json')
+
+    # load_and_analyze_results('gati_shakti_similar_issues_analysis.json')
