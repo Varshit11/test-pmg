@@ -101,7 +101,7 @@ def load_database():
     logger.info("Loading issues database...")
     
     # Load issues database
-    database_file = 'data/prod/gati_shakti_feature_engineering_with_time_features.json'
+    database_file = 'gati_shakti_feature_engineering_with_time_features.json'
     embeddings_file = 'data/prod/embeddings_cache.pkl'
     index_file = 'data/prod/project_issue_index.json'
     
@@ -491,4 +491,5 @@ async def list_issues(limit: int = 10, offset: int = 0):
     }
 
 if __name__ == "__main__":
+
     uvicorn.run(app, host="0.0.0.0", port=8001)
