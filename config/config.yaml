@@ -167,12 +167,12 @@ action_recommendation:
 # Database configuration (for final output)
 database:
   enabled: true
-  type: "postgresql"  # or "mysql" or "sqlite"
-  host: "localhost"
+  type: "mysql"  # or "mysql" or "sqlite"
+  host: ""app-m5large-db-instance.chmgaq2c6rvl.ap-south-1.rds.amazonaws.com""
   port: 5432
   database: "pmg_issue_ai"
-  username: "pmg_user"
-  password: "your_secure_password"
+  username: "admin"
+  password: "]Xr<iuW4He<)[-ZN_3vFp<T:Q7$N"
   table_name: "ml_results"
   batch_size: 1000
   update_existing: true
@@ -196,4 +196,5 @@ debug:
   save_intermediate_results: true
   limit_data_for_testing: false
   test_data_limit: 100
+
   verbose_logging: false
