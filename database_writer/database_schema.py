@@ -398,7 +398,7 @@ class MySQLSchemaManager:
         ) ENGINE=InnoDB 
         DEFAULT CHARSET=utf8mb4 
         COLLATE=utf8mb4_unicode_ci 
-        COMMENT='PMG Issue AI ML Results - Schema Version {self.schema_version}'"""
+        COMMENT=PMG Issue AI ML Results - Schema Version {self.schema_version}"""
         
         return sql
     
@@ -620,4 +620,5 @@ def create_schema_manager(connection_config: Dict[str, Any],
         MySQLSchemaManager instance
     """
     return MySQLSchemaManager(connection_config, table_name)
+
 
