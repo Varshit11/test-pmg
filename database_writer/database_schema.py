@@ -394,7 +394,7 @@ class MySQLSchemaManager:
         # Create table SQL
         sql = f"""
         CREATE TABLE IF NOT EXISTS `{self.table_name}` (
-            {',            '.join(column_definitions)}
+            {',\n            '.join(column_definitions)}
         ) ENGINE=InnoDB 
         DEFAULT CHARSET=utf8mb4 
         COLLATE=utf8mb4_unicode_ci 
@@ -620,3 +620,4 @@ def create_schema_manager(connection_config: Dict[str, Any],
         MySQLSchemaManager instance
     """
     return MySQLSchemaManager(connection_config, table_name)
+
