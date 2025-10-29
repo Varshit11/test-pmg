@@ -177,7 +177,6 @@ database:
   update_existing: true
   connection_params:
     connect_timeout: 30
-    sslmode: "prefer"
 
 
 environment:
@@ -197,5 +196,6 @@ debug:
   test_data_limit: 100
 
   verbose_logging: false
+
 
 
