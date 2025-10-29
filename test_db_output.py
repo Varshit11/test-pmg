@@ -23,7 +23,7 @@ def view_table_contents():
         cursor = connection.cursor()
         
         # Get all records
-        cursor.execute("SELECT * FROM ml_results")
+        cursor.execute("SELECT * FROM ml_results2")
         results = cursor.fetchall()
         
         # Get column names
