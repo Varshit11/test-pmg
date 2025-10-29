@@ -164,11 +164,10 @@ action_recommendation:
   generate_for_open_issues_only: true
   max_recommendations: 3
 
-# Database configuration (for final output)
 database:
   enabled: true
   type: "mysql"  # or "mysql" or "sqlite"
-  host: ""app-m5large-db-instance.chmgaq2c6rvl.ap-south-1.rds.amazonaws.com""
+  host: "app-m5large-db-instance.chmgaq2c6rvl.ap-south-1.rds.amazonaws.com"
   port: 5432
   database: "pmg_issue_ai"
   username: "admin"
@@ -198,3 +197,4 @@ debug:
   test_data_limit: 100
 
   verbose_logging: false
+
