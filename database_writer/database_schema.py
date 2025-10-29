@@ -392,13 +392,20 @@ class MySQLSchemaManager:
                 column_definitions.append(f"UNIQUE KEY `{index_name}` (`{columns_str}`)")
         
         # Create table SQL
+        # sql = f"""
+        # CREATE TABLE IF NOT EXISTS `{self.table_name}` (
+        #     {',\n            '.join(column_definitions)}
+        # ) ENGINE=InnoDB 
+        # DEFAULT CHARSET=utf8mb4 
+        # COLLATE=utf8mb4_unicode_ci 
+        # COMMENT=PMG Issue AI ML Results - Schema Version {self.schema_version}"""
+        # Build column string separately to avoid f-string issues
+        columns_sql = ",\n            ".join(column_definitions)
+        
         sql = f"""
         CREATE TABLE IF NOT EXISTS `{self.table_name}` (
-            {',\n            '.join(column_definitions)}
-        ) ENGINE=InnoDB 
-        DEFAULT CHARSET=utf8mb4 
-        COLLATE=utf8mb4_unicode_ci 
-        COMMENT=PMG Issue AI ML Results - Schema Version {self.schema_version}"""
+            {columns_sql}
+        ) ENGINE=InnoDB"""
         
         return sql
     
@@ -620,5 +627,6 @@ def create_schema_manager(connection_config: Dict[str, Any],
         MySQLSchemaManager instance
     """
     return MySQLSchemaManager(connection_config, table_name)
+
 
 
