@@ -62,7 +62,7 @@ data_paths:
   action_recommendations_file: "data/outputs/action_recommendations/action_recommendations_output.json"
   # final_results_file: "data/outputs/final_results/final_output.json"
   final_excel_file: "data/outputs/final_results/final_ml_results.xlsx"
-  final_json_file: "data/outputs/final_results/final_ml_results.json"
+  final_results_file: "data/outputs/final_results/final_ml_results.json"
 
 
 # PMG API configuration
@@ -196,6 +196,7 @@ debug:
   test_data_limit: 100
 
   verbose_logging: false
+
 
 
 
