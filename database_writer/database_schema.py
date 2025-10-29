@@ -394,12 +394,11 @@ class MySQLSchemaManager:
         # Create table SQL
         sql = f"""
         CREATE TABLE IF NOT EXISTS `{self.table_name}` (
-            {',\n            '.join(column_definitions)}
+            {',            '.join(column_definitions)}
         ) ENGINE=InnoDB 
         DEFAULT CHARSET=utf8mb4 
         COLLATE=utf8mb4_unicode_ci 
-        COMMENT='PMG Issue AI ML Results - Schema Version {self.schema_version}'
-        """
+        COMMENT='PMG Issue AI ML Results - Schema Version {self.schema_version}'"""
         
         return sql
     
