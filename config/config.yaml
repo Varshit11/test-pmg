@@ -1,0 +1,199 @@
+# PMG Issue AI Pipeline Configuration
+# This configuration file controls all aspects of the pipeline execution
+
+# Pipeline execution settings
+pipeline:
+  # Available stages: DATA_FETCH, PREPROCESSING, FEATURE_ENGINEERING, EMBEDDINGS, 
+  # DESCRIPTION, CLASSIFICATION, SIMILAR_ISSUES, TIMELINE, ACTION_RECOMMENDATION, POST_PROCESSING
+  start_stage: "DATA_FETCH"
+  end_stage: "POST_PROCESSING"
+  
+  # Whether to fetch input data at the beginning
+  input_fetch: true
+
+# Logging configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  logs_path: "logs/"
+  enable_console_logging: true
+
+
+error_handling:
+  retry_failed_operations: true
+  max_retries: 3
+  continue_on_errors: true
+  save_error_records: true
+
+# Data paths configuration
+data_paths:
+  # Raw data from APIs
+  raw_data_dir: "data/raw/"
+  issues_file: "data/raw/issues/issues_data.json"
+  projects_file: "data/raw/projects/projects_data.json"
+  meetings_file: "data/raw/meetings/meetings_data.json"
+  comments_file: "data/raw/comments/comments_data.json"
+
+  
+  # Processed data
+  processed_data_dir: "data/processed/"
+  merged_issues_file: "data/processed/merged_issues.json"
+  
+  # Feature engineered data
+  features_data_dir: "data/features/"
+  all_issues_features_file: "data/features/all_issues_features.json"
+  resolved_issues_features_file: "data/features/resolved_issues_features.json"
+  open_issues_features_file: "data/features/open_issues_features.json"
+  
+  # Embeddings cache
+  embeddings_dir: "data/embeddings/"
+  
+  # Model artifacts
+  models_dir: "data/models/"
+  timeline_model_file: "data/models/timeline_model.pkl"
+  
+
+
+  # Output data
+  outputs_dir: "data/outputs/"
+  descriptions_file: "data/outputs/descriptions/descriptions_output.json"
+  classifications_file: "data/outputs/classifications/classifications_output.json"
+  similar_issues_file: "data/outputs/similar_issues/similar_issues_output.json"
+  timeline_predictions_file: "data/outputs/timeline_predictions/timeline_predictions_output.json"
+  action_recommendations_file: "data/outputs/action_recommendations/action_recommendations_output.json"
+  # final_results_file: "data/outputs/final_results/final_output.json"
+  final_excel_file: "data/outputs/final_results/final_ml_results.xlsx"
+  final_json_file: "data/outputs/final_results/final_ml_results.json"
+
+
+# PMG API configuration
+pmg_api:
+  base_url: "https://pmg.dpiit.gov.in"
+  auth_endpoint: "/auth/login"
+  
+  # API endpoints
+  endpoints:
+    projects: "/project/project/indiaAI/getProjectData"
+    issues: "/project/issue/indiaAI/getIssueData"
+    comments: "/project/issue/indiaAI/getCommentData"
+    comments_paginated: "/project/issue/indiaAI/getCommentDataWithPage"
+    meeting_decisions: "/project/issue/indiaAI/getMeetingDecisionData"
+  
+  # Authentication credentials
+  auth:
+    username: "indiaaiauth"
+    password: "Pmg@1234"
+  
+  # Request settings
+  max_retries: 5
+  verify_ssl: false
+  
+  # Pagination settings for comments
+  pagination:
+    page_size: 2000
+    max_pages: 10
+
+# LLM API configuration (for descriptions, classification, etc.)
+llm_api:
+  url: "https://apis.airawat.cdac.in/negd/v1/chat/completions"
+  token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ5YUtYUGtLZ1lKSUNqRTg3dHUwVnBUS3R5UUhxaUk1cyJ9.wJbzY_YRXGBug9sO1EYSwiCkRrI1bKnOL3uxSITxV94"
+  model: "meta/llama-3.2-11b-vision-instruct"
+  max_tokens: 2000
+  timeout: 30
+
+# Embedding model configuration
+embeddings:
+  model_name: "all-MiniLM-L6-v2"
+  cache_enabled: true
+  batch_size: 32
+  normalize_embeddings: true
+
+# Feature engineering configuration
+feature_engineering:
+  # Text combination weights
+  text_weights:
+    combined_text: 3
+    issue_title: 2
+    issue_description: 2
+    manual_features: 1
+    clustering_features: 1
+    categorical_features: 1
+
+# Similar issues configuration
+similar_issues:
+  top_k: 3
+  similarity_threshold: 0.5
+  use_resolved_only_for_similarity: true
+
+# Timeline prediction configuration
+timeline:
+  # Train/test split configuration
+  test_size: 0.2
+  random_state: 42
+  stratify_by: "resolution_time_category"
+  
+  # Model training
+  cross_validation_folds: 5
+  grid_search_enabled: true
+  
+  # Feature selection
+  feature_selection_enabled: true
+  max_features: 100
+  
+  # Model types to try
+  model_types:
+    - "random_forest"
+    - "gradient_boosting"
+    - "xgboost"
+
+
+post_processing:
+  validate_all_inputs: true
+  generate_summary_report: true
+  excel_formatting:
+    auto_adjust_columns: true
+    max_column_width: 50
+    header_formatting: true
+    freeze_panes: true
+  data_quality_checks:
+    check_missing_fields: true
+    validate_data_types: true
+    check_duplicates: true
+
+# Action recommendation configuration
+action_recommendation:
+  generate_for_open_issues_only: true
+  max_recommendations: 3
+
+# Database configuration (for final output)
+database:
+  enabled: true
+  type: "postgresql"  # or "mysql" or "sqlite"
+  host: "localhost"
+  port: 5432
+  database: "pmg_issue_ai"
+  username: "pmg_user"
+  password: "your_secure_password"
+  table_name: "ml_results"
+  batch_size: 1000
+  update_existing: true
+  connection_params:
+    connect_timeout: 30
+    sslmode: "prefer"
+
+
+environment:
+  current: "development"
+  debug_mode: true
+
+# Performance monitoring
+performance:
+  track_execution_time: true
+  track_memory_usage: true
+  enable_profiling: false
+
+# Debug and development settings
+debug:
+  save_intermediate_results: true
+  limit_data_for_testing: false
+  test_data_limit: 100
+  verbose_logging: false

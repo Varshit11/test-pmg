@@ -1,0 +1,162 @@
+[
+    {
+      "projectId": "4562",
+      "issueId": "9771",
+      "timeAiPredictedTimeline": "56",
+      "issueStartDate": "22/03/2022 11:09:34",
+      "predictedEndDate": "2022-05-17",
+      "timelineReasoning": "Based on similar GAD approval cases in railway projects, the average resolution time is 58 days. Factors considered: regulatory complexity (medium), stakeholder coordination (2 entities), historical resolution patterns for DRM approvals (45-70 days), and project priority (high). The prediction accounts for typical administrative processing time and potential delays in inter-departmental coordination."
+    },
+    {
+      "projectId": "6248", 
+      "issueId": "14580",
+      "timeAiPredictedTimeline": "731",
+      "issueStartDate": "29/11/2024 09:29:50",
+      "predictedEndDate": "2026-11-30",
+      "timelineReasoning": "Forest clearance cases involving MoEFCC typically require 18-24 months due to complex environmental assessments. Factors: large land area (24.906 ha), multiple stakeholder coordination (State Govt + MoEFCC + User Agency), EDS compliance requirements, and mining project complexity. Similar cases show resolution times of 600-850 days. Extended timeline reflects thorough environmental review process and potential additional compliance requirements."
+    },
+    {
+      "projectId": "9611",
+      "issueId": "7326",
+      "timeAiPredictedTimeline": "2873",
+      "issueStartDate": "08/09/2021 10:23:10",
+      "predictedEndDate": "2029-06-21",
+      "timelineReasoning": "Large-scale R&R projects with multiple villages and community resistance typically require 7-8 years for complete resolution. Factors: 3,300 affected families, 6 villages, villager resistance, complex land surveys, infrastructure development requirements, and state government coordination. Historical data shows similar R&R cases taking 2,500-3,500 days. Timeline includes survey completion, site development, and final rehabilitation."
+    },
+    {
+      "projectId": "2341",
+      "issueId": "5678",
+      "timeAiPredictedTimeline": "540",
+      "issueStartDate": "15/06/2023 14:30:00",
+      "predictedEndDate": "2025-01-07",
+      "timelineReasoning": "Stage II environmental clearances for highway projects typically require 15-18 months. Factors: highway project complexity, MoEFCC processing time, environmental impact assessment requirements, and NHAI coordination. Similar clearances show 450-650 day resolution times. Timeline includes technical review, stakeholder consultations, and final approval process."
+    },
+    {
+      "projectId": "7890",
+      "issueId": "1234",
+      "timeAiPredictedTimeline": "456",
+      "issueStartDate": "10/12/2022 09:15:30",
+      "predictedEndDate": "2024-04-10",
+      "timelineReasoning": "Compensation disbursement for metro projects involving large amounts typically takes 12-15 months. Factors: high compensation amount (INR 125.5 cr), 450 affected families, PMRDA coordination, beneficiary verification process, and fund allocation procedures. Similar metro compensation cases resolved in 400-500 days. Timeline includes verification, approval, and disbursement phases."
+    },
+    {
+      "projectId": "3456",
+      "issueId": "7891",
+      "timeAiPredictedTimeline": "234",
+      "issueStartDate": "20/01/2024 11:45:00",
+      "predictedEndDate": "2024-09-11",
+      "timelineReasoning": "Utility shifting approvals for smart city projects typically require 6-8 months. Factors: multiple utility coordination (electricity + water), state electricity board processing time, municipal corporation involvement, and infrastructure complexity. Similar utility shifting cases resolved in 180-280 days. Timeline includes technical assessment, approval, and coordination between agencies."
+    },
+    {
+      "projectId": "5567",
+      "issueId": "8912",
+      "timeAiPredictedTimeline": "598",
+      "issueStartDate": "30/08/2023 16:20:00",
+      "predictedEndDate": "2025-04-20",
+      "timelineReasoning": "Wildlife clearances for critical habitats like elephant corridors require 16-20 months due to extensive ecological studies. Factors: sensitive ecosystem (elephant corridor), detailed wildlife impact assessment, National Board for Wildlife approval, forest department coordination, and mitigation measure development. Similar wildlife clearances take 500-700 days. Timeline includes impact studies, expert consultations, and approval process."
+    },
+    {
+      "projectId": "6678",
+      "issueId": "9123",
+      "timeAiPredictedTimeline": "487",
+      "issueStartDate": "15/02/2023 10:30:00",
+      "predictedEndDate": "2024-07-16",
+      "timelineReasoning": "CRZ clearances for port development projects require 13-16 months due to complex coastal impact assessments. Factors: port development complexity, marine environment impact, coastal authority review process, fishing community consultations, and state government coordination. Similar CRZ clearances resolved in 400-550 days. Timeline includes coastal studies, stakeholder consultations, and regulatory approval."
+    },
+    {
+      "projectId": "7789",
+      "issueId": "2345",
+      "timeAiPredictedTimeline": "278",
+      "issueStartDate": "10/03/2024 08:45:00",
+      "predictedEndDate": "2024-12-14",
+      "timelineReasoning": "Mining lease renewals with environmental compliance typically require 8-10 months. Factors: coal block strategic importance, environmental compliance requirements, Ministry of Coal coordination, state mining department approvals, and updated impact assessments. Similar mining lease renewals resolved in 200-350 days. Timeline includes compliance verification, technical review, and ministry approval."
+    },
+    {
+      "projectId": "8890",
+      "issueId": "3456",
+      "timeAiPredictedTimeline": "445",
+      "issueStartDate": "05/11/2023 13:15:00",
+      "predictedEndDate": "2025-01-24",
+      "timelineReasoning": "Right of way acquisition with farmer disputes typically requires 12-15 months for resolution. Factors: farmer protest intensity, legal challenges, 12 km transmission line length, PGCIL negotiations, state government mediation, and compensation discussions. Similar land acquisition disputes resolved in 350-500 days. Timeline includes negotiation, legal resolution, and final acquisition."
+    },
+    {
+      "projectId": "9901",
+      "issueId": "4567",
+      "timeAiPredictedTimeline": "189",
+      "issueStartDate": "12/05/2024 12:00:00",
+      "predictedEndDate": "2024-11-17",
+      "timelineReasoning": "Archaeological clearances for metro projects near monuments typically require 5-7 months. Factors: ASI review process, heritage impact assessment complexity, DMRC coordination, Delhi government involvement, and specialized construction requirement evaluation. Similar archaeological clearances resolved in 150-220 days. Timeline includes heritage assessment, expert review, and conditional approval."
+    },
+    {
+      "projectId": "1012",
+      "issueId": "5678",
+      "timeAiPredictedTimeline": "567",
+      "issueStartDate": "20/07/2023 15:30:00",
+      "predictedEndDate": "2025-02-08",
+      "timelineReasoning": "Interstate water dispute resolutions for irrigation projects typically require 15-18 months. Factors: Karnataka-Tamil Nadu dispute complexity, Ministry of Water Resources mediation, tribunal recommendations, Supreme Court directions, and political negotiations. Similar interstate water disputes resolved in 450-650 days. Timeline includes mediation, technical committees, and political resolution."
+    },
+    {
+      "projectId": "1123",
+      "issueId": "6789",
+      "timeAiPredictedTimeline": "267",
+      "issueStartDate": "01/10/2023 09:00:00",
+      "predictedEndDate": "2024-05-25",
+      "timelineReasoning": "Fire safety clearances for pharmaceutical complexes typically require 7-9 months. Factors: pharmaceutical safety standards complexity, specialized fire systems assessment, state fire department technical review, pollution control board coordination, and industrial development authority approval. Similar pharmaceutical safety clearances resolved in 200-320 days. Timeline includes technical assessment, safety system verification, and final clearance."
+    },
+    {
+      "projectId": "1234",
+      "issueId": "7890",
+      "timeAiPredictedTimeline": "456",
+      "issueStartDate": "28/02/2024 14:20:00",
+      "predictedEndDate": "2025-06-02",
+      "timelineReasoning": "Tribal land consent for railway projects in scheduled areas typically requires 12-15 months. Factors: tribal community consultation complexity, Forest Rights Act compliance, PESA regulation adherence, Ministry of Tribal Affairs coordination, and community benefit-sharing negotiations. Similar tribal consent cases resolved in 350-500 days. Timeline includes community consultations, legal compliance, and consent documentation."
+    },
+    {
+      "projectId": "1345",
+      "issueId": "8901",
+      "timeAiPredictedTimeline": "234",
+      "issueStartDate": "15/01/2024 11:10:00",
+      "predictedEndDate": "2024-09-05",
+      "timelineReasoning": "DGCA clearances for wind farms typically require 6-8 months. Factors: 150 MW project scale, airspace safety assessment, radar interference studies, Gujarat government support, and aviation authority coordination. Similar airspace clearances for wind projects resolved in 180-280 days. Timeline includes aeronautical studies, technical review, and conditional approval with safety measures."
+    },
+    {
+      "projectId": "1456",
+      "issueId": "9012",
+      "timeAiPredictedTimeline": "345",
+      "issueStartDate": "05/12/2023 10:45:00",
+      "predictedEndDate": "2024-11-14",
+      "timelineReasoning": "Pipeline route approvals in border areas with security clearance typically require 10-12 months. Factors: 200 km pipeline length, border area security sensitivity, Home Ministry coordination, Ministry of Petroleum approvals, and state government clearances. Similar pipeline security clearances resolved in 280-400 days. Timeline includes security assessment, route evaluation, and multi-ministry approval."
+    },
+    {
+      "projectId": "1567",
+      "issueId": "1123",
+      "timeAiPredictedTimeline": "167",
+      "issueStartDate": "08/04/2024 13:25:00",
+      "predictedEndDate": "2024-09-22",
+      "timelineReasoning": "Fisheries NOCs for bridge construction typically require 4-6 months. Factors: river crossing impact assessment, fishing community consultation, environmental impact on aquatic life, PWD coordination, and seasonal fishing pattern considerations. Similar fisheries clearances for bridge projects resolved in 120-200 days. Timeline includes impact assessment, community consultation, and conditional approval."
+    },
+    {
+      "projectId": "1678",
+      "issueId": "2234",
+      "timeAiPredictedTimeline": "456",
+      "issueStartDate": "15/08/2023 16:40:00",
+      "predictedEndDate": "2024-12-14",
+      "timelineReasoning": "Defense land clearances for civilian airport expansion typically require 12-15 months. Factors: defense strategic considerations, military land transfer procedures, Defense Ministry review process, AAI coordination, and Assam government involvement. Similar defense land transfers resolved in 350-500 days. Timeline includes strategic assessment, land valuation, and ministry approval."
+    },
+    {
+      "projectId": "1789",
+      "issueId": "3345",
+      "timeAiPredictedTimeline": "234",
+      "issueStartDate": "20/11/2023 12:15:00",
+      "predictedEndDate": "2024-07-11",
+      "timelineReasoning": "Heritage impact assessments for metro projects in heritage cities typically require 6-8 months. Factors: Jaipur heritage city status, UNESCO considerations, heritage committee review complexity, tourism department coordination, and specialized construction requirement evaluation. Similar heritage assessments resolved in 180-280 days. Timeline includes heritage study, expert consultations, and conditional approval."
+    },
+    {
+      "projectId": "1890",
+      "issueId": "4456",
+      "timeAiPredictedTimeline": "278",
+      "issueStartDate": "10/06/2024 14:50:00",
+      "predictedEndDate": "2025-03-15",
+      "timelineReasoning": "Groundwater clearances for large industrial projects typically require 7-9 months. Factors: high water requirement (500 KLD), steel manufacturing water needs, groundwater authority assessment, pollution control board coordination, and sustainable extraction evaluation. Similar groundwater clearances for steel plants resolved in 220-320 days. Timeline includes water impact assessment, authority review, and conditional approval."
+    }
+  ]

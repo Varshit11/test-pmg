@@ -1,0 +1,32 @@
+2025-10-29 01:53:51,299 - __main__ - INFO - Logging initialized. Log file: logs\post_processing.log
+2025-10-29 01:53:51,300 - __main__ - INFO - PostProcessingPipeline initialized successfully
+2025-10-29 01:53:51,300 - __main__ - INFO - ================================================================================
+2025-10-29 01:53:51,301 - __main__ - INFO - STARTING PMG ISSUE AI PIPELINE - POST PROCESSING
+2025-10-29 01:53:51,301 - __main__ - INFO - ================================================================================
+2025-10-29 01:53:51,302 - __main__ - INFO - Validating input requirements...
+2025-10-29 01:53:51,303 - __main__ - ERROR - Post processing failed after 0:00:00.003088: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-10-29 01:53:51,305 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Dubey Varshit\OneDrive - The Boston Consulting Group, Inc\Documents\Case India AI Mission\Gati Shakti\pmg-pilot\pmg_ml_models\src\issue-ai\src\post_processing\merge.py", line 565, in run
+    self._validate_inputs()
+  File "C:\Users\Dubey Varshit\OneDrive - The Boston Consulting Group, Inc\Documents\Case India AI Mission\Gati Shakti\pmg-pilot\pmg_ml_models\src\issue-ai\src\post_processing\merge.py", line 108, in _validate_inputs
+    if not os.path.exists(file_path):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 19, in exists
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+
+2025-10-29 01:55:04,006 - __main__ - INFO - Logging initialized. Log file: logs\post_processing.log
+2025-10-29 01:55:04,007 - __main__ - INFO - PostProcessingPipeline initialized successfully
+2025-10-29 01:55:04,008 - __main__ - INFO - ================================================================================
+2025-10-29 01:55:04,008 - __main__ - INFO - STARTING PMG ISSUE AI PIPELINE - POST PROCESSING
+2025-10-29 01:55:04,008 - __main__ - INFO - ================================================================================
+2025-10-29 01:55:04,008 - __main__ - INFO - Validating input requirements...
+2025-10-29 01:55:04,008 - __main__ - ERROR - Post processing failed after 0:00:00.001306: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-10-29 01:55:04,010 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Dubey Varshit\OneDrive - The Boston Consulting Group, Inc\Documents\Case India AI Mission\Gati Shakti\pmg-pilot\pmg_ml_models\src\issue-ai\src\post_processing\merge.py", line 566, in run
+    self._validate_inputs()
+  File "C:\Users\Dubey Varshit\OneDrive - The Boston Consulting Group, Inc\Documents\Case India AI Mission\Gati Shakti\pmg-pilot\pmg_ml_models\src\issue-ai\src\post_processing\merge.py", line 109, in _validate_inputs
+    if not os.path.exists(file_path):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 19, in exists
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+

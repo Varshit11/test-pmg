@@ -1,0 +1,8 @@
+{
+  "model_type": "timeline_prediction",
+  "feature_count": 464,
+  "use_hybrid_prediction": false,
+  "trained_at": "2025-10-27T19:28:59.684624",
+  "saved_at": "2025-10-27T19:28:59.843281",
+  "model_name": "timeline_prediction_model"
+}

@@ -1,0 +1,162 @@
+[
+    {
+      "projectId": "4562",
+      "issueId": "9771",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.95,
+      "reasoningFactors": ["GAD approval", "railway regulatory clearance", "administrative permissions"],
+      "alternativeCategories": ["Administrative Issue", "Policy/Approval Issue"]
+    },
+    {
+      "projectId": "6248", 
+      "issueId": "14580",
+      "classification": "ENVIRONMENTAL & COMPLIANCE",
+      "confidence": 0.98,
+      "reasoningFactors": ["forest land diversion", "MoEFCC clearance", "environmental compliance"],
+      "alternativeCategories": ["Regulatory Approvals", "Legal/Regulatory Issue"]
+    },
+    {
+      "projectId": "9611",
+      "issueId": "7326",
+      "classification": "LAND & ACQUISITION ISSUES", 
+      "confidence": 0.97,
+      "reasoningFactors": ["asset survey", "rehabilitation", "land acquisition", "villager resistance"],
+      "alternativeCategories": ["Stakeholder Coordination Issue", "Administrative Issue"]
+    },
+    {
+      "projectId": "2341",
+      "issueId": "5678",
+      "classification": "ENVIRONMENTAL & COMPLIANCE",
+      "confidence": 0.94,
+      "reasoningFactors": ["environmental clearance", "MoEFCC approval", "highway environmental impact"],
+      "alternativeCategories": ["Regulatory Approvals", "Administrative Issue"]
+    },
+    {
+      "projectId": "7890",
+      "issueId": "1234",
+      "classification": "LAND & ACQUISITION ISSUES",
+      "confidence": 0.96,
+      "reasoningFactors": ["compensation disbursement", "affected families", "land acquisition"],
+      "alternativeCategories": ["Financial Issue", "Administrative Issue"]
+    },
+    {
+      "projectId": "3456",
+      "issueId": "7891",
+      "classification": "INFRASTRUCTURE & UTILITIES",
+      "confidence": 0.92,
+      "reasoningFactors": ["utility shifting", "electrical systems", "water utilities", "infrastructure coordination"],
+      "alternativeCategories": ["Administrative Issue", "Stakeholder Coordination Issue"]
+    },
+    {
+      "projectId": "5567",
+      "issueId": "8912",
+      "classification": "ENVIRONMENTAL & COMPLIANCE",
+      "confidence": 0.99,
+      "reasoningFactors": ["wildlife clearance", "elephant corridor", "environmental protection"],
+      "alternativeCategories": ["Regulatory Approvals", "Legal/Regulatory Issue"]
+    },
+    {
+      "projectId": "6678",
+      "issueId": "9123",
+      "classification": "ENVIRONMENTAL & COMPLIANCE",
+      "confidence": 0.97,
+      "reasoningFactors": ["CRZ clearance", "coastal regulation", "marine environment"],
+      "alternativeCategories": ["Regulatory Approvals", "Administrative Issue"]
+    },
+    {
+      "projectId": "7789",
+      "issueId": "2345",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.95,
+      "reasoningFactors": ["mining lease renewal", "regulatory compliance", "ministry approval"],
+      "alternativeCategories": ["Environmental Issue", "Administrative Issue"]
+    },
+    {
+      "projectId": "8890",
+      "issueId": "3456",
+      "classification": "LAND & ACQUISITION ISSUES",
+      "confidence": 0.98,
+      "reasoningFactors": ["right of way acquisition", "farmer protests", "land disputes"],
+      "alternativeCategories": ["Stakeholder Coordination Issue", "Legal/Regulatory Issue"]
+    },
+    {
+      "projectId": "9901",
+      "issueId": "4567",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.93,
+      "reasoningFactors": ["archaeological clearance", "ASI approval", "heritage protection"],
+      "alternativeCategories": ["Administrative Issue", "Legal/Regulatory Issue"]
+    },
+    {
+      "projectId": "1012",
+      "issueId": "5678",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.91,
+      "reasoningFactors": ["water resources clearance", "interstate dispute", "ministry approval"],
+      "alternativeCategories": ["Stakeholder Coordination Issue", "Legal/Regulatory Issue"]
+    },
+    {
+      "projectId": "1123",
+      "issueId": "6789",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.94,
+      "reasoningFactors": ["fire safety clearance", "state department approval", "safety compliance"],
+      "alternativeCategories": ["Technical Issue", "Administrative Issue"]
+    },
+    {
+      "projectId": "1234",
+      "issueId": "7890",
+      "classification": "LAND & ACQUISITION ISSUES",
+      "confidence": 0.96,
+      "reasoningFactors": ["tribal land consent", "scheduled area", "community consultation"],
+      "alternativeCategories": ["Stakeholder Coordination Issue", "Legal/Regulatory Issue"]
+    },
+    {
+      "projectId": "1345",
+      "issueId": "8901",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.92,
+      "reasoningFactors": ["airspace clearance", "DGCA approval", "aviation safety"],
+      "alternativeCategories": ["Technical Issue", "Administrative Issue"]
+    },
+    {
+      "projectId": "1456",
+      "issueId": "9012",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.89,
+      "reasoningFactors": ["route approval", "security clearance", "ministry coordination"],
+      "alternativeCategories": ["Administrative Issue", "Stakeholder Coordination Issue"]
+    },
+    {
+      "projectId": "1567",
+      "issueId": "1123",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.91,
+      "reasoningFactors": ["fisheries NOC", "department approval", "environmental clearance"],
+      "alternativeCategories": ["Environmental Issue", "Stakeholder Coordination Issue"]
+    },
+    {
+      "projectId": "1678",
+      "issueId": "2234",
+      "classification": "LAND & ACQUISITION ISSUES",
+      "confidence": 0.94,
+      "reasoningFactors": ["defense land clearance", "land transfer", "acquisition delays"],
+      "alternativeCategories": ["Administrative Issue", "Regulatory Approvals"]
+    },
+    {
+      "projectId": "1789",
+      "issueId": "3345",
+      "classification": "REGULATORY APPROVALS & PERMISSIONS",
+      "confidence": 0.95,
+      "reasoningFactors": ["heritage impact assessment", "heritage committee approval", "conservation clearance"],
+      "alternativeCategories": ["Administrative Issue", "Legal/Regulatory Issue"]
+    },
+    {
+      "projectId": "1890",
+      "issueId": "4456",
+      "classification": "ENVIRONMENTAL & COMPLIANCE",
+      "confidence": 0.96,
+      "reasoningFactors": ["groundwater clearance", "water authority approval", "environmental assessment"],
+      "alternativeCategories": ["Regulatory Approvals", "Resource Availability Issue"]
+    }
+  ]
